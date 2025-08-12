@@ -315,14 +315,14 @@ const DataMigrationTool = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">Validation Tools</h3>
                   
                   <div className="space-y-6">
-                    <div className="p-6 bg-blue-50 rounded-lg">
-                      <h4 className="font-semibold text-blue-900 mb-2">Data Integrity Validation</h4>
-                      <p className="text-sm text-blue-700 mb-4">
+                            <div className="p-6 bg-green-50 rounded-lg">
+          <h4 className="font-semibold text-green-900 mb-2">Data Integrity Validation</h4>
+          <p className="text-sm text-green-700 mb-4">
                         Comprehensive checks for data consistency, referential integrity, and business rule compliance.
                       </p>
                       <button
                         onClick={runValidation}
-                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                        className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
                       >
                         Run Validation
                       </button>
@@ -338,12 +338,12 @@ const DataMigrationTool = () => {
                    </button>
                  </div>
 
-                    <div className="p-6 bg-purple-50 rounded-lg">
-                      <h4 className="font-semibold text-purple-900 mb-2">Security Audit</h4>
-                      <p className="text-sm text-purple-700 mb-4">
+                            <div className="p-6 bg-green-50 rounded-lg">
+          <h4 className="font-semibold text-green-900 mb-2">Security Audit</h4>
+          <p className="text-sm text-green-700 mb-4">
                         Security vulnerability assessment and compliance checking for data protection standards.
                       </p>
-                      <button className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
+                                              <button className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
                         Run Security Audit
                       </button>
                     </div>
@@ -400,10 +400,10 @@ const DataMigrationTool = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Performance Monitoring</h3>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div className="p-6 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg text-white">
+                <div className="p-6 bg-gradient-to-r from-green-500 to-green-600 rounded-lg text-white">
                   <h4 className="text-lg font-semibold mb-2">Migration Speed</h4>
                   <p className="text-3xl font-bold">2.5x</p>
-                  <p className="text-blue-100 text-sm">Faster than manual conversion</p>
+                  <p className="text-green-100 text-sm">Faster than manual conversion</p>
                 </div>
                 
                                  <div className="p-6 bg-gradient-to-r from-green-500 to-green-600 rounded-lg text-white">
@@ -412,10 +412,10 @@ const DataMigrationTool = () => {
                    <p className="text-green-100 text-sm">Data migration accuracy</p>
                  </div>
                 
-                <div className="p-6 bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg text-white">
+                <div className="p-6 bg-gradient-to-r from-green-500 to-green-600 rounded-lg text-white">
                   <h4 className="text-lg font-semibold mb-2">Performance Gain</h4>
                   <p className="text-3xl font-bold">10x</p>
-                  <p className="text-purple-100 text-sm">Performance improvement</p>
+                  <p className="text-green-100 text-sm">Performance improvement</p>
                 </div>
               </div>
 
@@ -432,11 +432,11 @@ const DataMigrationTool = () => {
                       <p className="text-sm text-gray-600">Success Rate</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-bold text-blue-600">45s</p>
+                      <p className="text-2xl font-bold text-green-600">45s</p>
                       <p className="text-sm text-gray-600">Avg. Processing Time</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-bold text-purple-600">0</p>
+                      <p className="text-2xl font-bold text-green-600">0</p>
                       <p className="text-sm text-gray-600">Active Issues</p>
                     </div>
                   </div>

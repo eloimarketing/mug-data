@@ -13,7 +13,7 @@ const UseCaseCards = () => {
       title: "Legacy System Modernization",
       description: "Convert decades-old PL/SQL banking systems to modern C++ for improved performance and security.",
       benefits: ["50% faster transaction processing", "Enhanced security compliance", "Reduced maintenance costs"],
-      color: "bg-blue-500"
+              color: "bg-green-500"
     },
     {
       industry: "Healthcare",
@@ -37,7 +37,7 @@ const UseCaseCards = () => {
       title: "Inventory & Order Systems",
       description: "Transform e-commerce platforms to handle high-volume transactions with C++ performance.",
       benefits: ["10x faster order processing", "Scalable inventory management", "Real-time analytics"],
-      color: "bg-purple-500"
+              color: "bg-green-500"
     },
     {
       industry: "Manufacturing",
@@ -49,7 +49,7 @@ const UseCaseCards = () => {
       title: "Production Control Systems",
       description: "Modernize manufacturing databases for real-time production monitoring and quality control.",
       benefits: ["Real-time production tracking", "Predictive maintenance", "Quality assurance"],
-      color: "bg-orange-500"
+              color: "bg-green-500"
     },
     {
       industry: "Telecommunications",
@@ -61,7 +61,7 @@ const UseCaseCards = () => {
       title: "Network Management",
       description: "Convert telecom databases to C++ for high-performance network monitoring and management.",
       benefits: ["Network optimization", "Fault detection", "Capacity planning"],
-      color: "bg-red-500"
+              color: "bg-green-500"
     },
     {
       industry: "Government",
@@ -73,7 +73,7 @@ const UseCaseCards = () => {
       title: "Public Records Systems",
       description: "Modernize government databases for efficient public service delivery and data security.",
       benefits: ["Secure data handling", "Fast query processing", "Compliance standards"],
-      color: "bg-indigo-500"
+              color: "bg-green-500"
     }
   ];
 

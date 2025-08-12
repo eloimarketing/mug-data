@@ -50,7 +50,7 @@ const Contact = () => {
 
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="section-padding bg-gradient-to-br from-primary-50 to-blue-50">
+        <section className="section-padding bg-gradient-to-br from-primary-50 to-green-50">
           <div className="container-custom">
             <motion.div
               initial={{ opacity: 0, y: 30 }}

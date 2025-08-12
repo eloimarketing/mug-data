@@ -27,7 +27,7 @@ const UseCases = () => {
         "Full regulatory compliance maintained",
         "$2M annual cost savings"
       ],
-      color: "bg-blue-500"
+              color: "bg-green-500"
     },
     {
       industry: "Healthcare",
@@ -73,7 +73,7 @@ const UseCases = () => {
         "Real-time pricing updates",
         "Enhanced customer experience"
       ],
-      color: "bg-purple-500"
+              color: "bg-green-500"
     }
   ];
 
@@ -86,7 +86,7 @@ const UseCases = () => {
 
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="section-padding bg-gradient-to-br from-primary-50 to-blue-50">
+        <section className="section-padding bg-gradient-to-br from-primary-50 to-green-50">
           <div className="container-custom">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -157,7 +157,7 @@ const UseCases = () => {
                     {/* Challenges */}
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                        <svg className="w-5 h-5 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
                         </svg>
                         Challenges
@@ -165,7 +165,7 @@ const UseCases = () => {
                       <ul className="space-y-3">
                         {useCase.challenges.map((challenge, challengeIndex) => (
                           <li key={challengeIndex} className="flex items-start">
-                            <svg className="w-4 h-4 text-red-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <svg className="w-4 h-4 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                             </svg>
                             <span className="text-gray-700 text-sm">{challenge}</span>
@@ -177,7 +177,7 @@ const UseCases = () => {
                     {/* Solutions */}
                     <div>
                       <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                        <svg className="w-5 h-5 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
                         </svg>
                         Solutions
@@ -185,7 +185,7 @@ const UseCases = () => {
                       <ul className="space-y-3">
                         {useCase.solutions.map((solution, solutionIndex) => (
                           <li key={solutionIndex} className="flex items-start">
-                            <svg className="w-4 h-4 text-blue-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <svg className="w-4 h-4 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                               <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                             </svg>
                             <span className="text-gray-700 text-sm">{solution}</span>
